@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.users{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.user{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px 4px rgba(212,212,212,0.5);
+  margin-top: 10px;
+}
+
+.user-name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
